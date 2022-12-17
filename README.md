@@ -13,26 +13,25 @@ To replicate results from the report you need to:
 The structure of the project is as follows:
 
 
-.
-├── README
-├── data
-│   ├── results_ucr_additional.csv      #results of original paper
-│   └── results_ucr_bakeoff.csv
-├── notebooks
-│   ├── Dropout uncertainties.ipynb     #calculate uncertainties via dropout
-│   ├── Ensemble uncertainties.ipynb    #calculate uncertainties on ensemble of ROCKETs
-│   └── Reproducing results.ipynb       #ensemble of ROCKETs and ridge classifier
-├── requirements.txt
-├── results
-│   ├── all_results.csv                 #all uncertainties metrics (dropout, ensemble), accs and original results
-│   ├── example_rc.pdf
-│   ├── reproduced_results_ridge.csv
-│   ├── uncertainty_results_dropout.csv
-│   └── uncertainty_results_ensemble.csv
-└── src
-    ├── rocket.py                       #ROCKET in torch
-    ├── ucr_utils.py                    #load and preprocess UCR archive
-    └── uncertainty_estimation.py       #metrics of uncertainties
-
+    .
+    ├── README
+    ├── data
+    │   ├── results_ucr_additional.csv      #results of original paper
+    │   └── results_ucr_bakeoff.csv   
+    ├── notebooks
+    │   ├── Dropout uncertainties.ipynb     #calculate uncertainties via dropout
+    │   ├── Ensemble uncertainties.ipynb    #calculate uncertainties on ensemble of ROCKETs
+    │   └── Reproducing results.ipynb       #ensemble of ROCKETs and ridge classifier
+    ├── requirements.txt
+    ├── results
+    │   ├── all_results.csv                 #all uncertainties metrics (dropout, ensemble), accs and original results
+    │   ├── example_rc.pdf
+    │   ├── reproduced_results_ridge.csv
+    │   ├── uncertainty_results_dropout.csv
+    │   └── uncertainty_results_ensemble.csv
+    └── src
+        ├── rocket.py                       #ROCKET in torch
+        ├── ucr_utils.py                    #load and preprocess UCR archive
+        └── uncertainty_estimation.py       #metrics of uncertainties
 Author: Valerii Kornilov
 Email: Valerii.Kornilov@skoltech.ru
