@@ -8,7 +8,7 @@ To replicate results from the report you need to:
 1)  Clone this repo
 2)  Install `requirements.txt`
 3)  Download [data](http://www.timeseriesclassification.com/Downloads/Archives/Univariate2018_ts.zip) and unzip it in `data` folder of the project
-4)  Run notebboks
+4)  Run notebooks
 
 The structure of the project is as follows:
 
