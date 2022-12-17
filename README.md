@@ -11,6 +11,7 @@ To replicate results from the report you need to:
 4)  Run notebboks
 
 The structure of the project is as follows:
+`
         .
         ├── README
         ├── data
@@ -31,6 +32,6 @@ The structure of the project is as follows:
             ├── rocket.py                       #ROCKET in torch
             ├── ucr_utils.py                    #load and preprocess UCR archive
             └── uncertainty_estimation.py       #metrics of uncertainties
-
+`
 *Author: Valerii Kornilov*  
 *Email: Valerii.Kornilov@skoltech.ru*
